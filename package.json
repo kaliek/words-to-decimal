@@ -1,0 +1,26 @@
+{
+  "name": "words-to-decimal",
+  "version": "1.0.1",
+  "description": "a parser to translate words to numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliek/words-to-decimal.git"
+  },
+  "keywords": [
+    "fraction"
+  ],
+  "author": "Kalie Mo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaliek/words-to-decimal/issues"
+  },
+  "homepage": "https://github.com/kaliek/words-to-decimal#readme",
+  "dependencies": {
+    "pluralize": "^8.0.0",
+    "words-to-numbers": "^1.5.1"
+  }
+}
