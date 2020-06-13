@@ -1,7 +1,7 @@
 import wordsToNumbers from "words-to-numbers";
 var pluralize = require("pluralize");
 
-const wordsToDecimal = (input) => {
+export const wordsToDecimal = (input) => {
     const lower = input.toString().toLowerCase().trim();
     if (lower.search("and") === -1) {
         const splits = lower.split(" ");
@@ -18,7 +18,7 @@ const wordsToDecimal = (input) => {
     }
 }
 
-const wordsToFraction = (input) => {
+export const wordsToFraction = (input) => {
     switch (input) {
         case "half":
             return 0.5;
@@ -40,5 +40,3 @@ const wordsToFraction = (input) => {
             return 0;
     }
 }
-
-module.exports.wordsToDecimal = wordsToDecimal;
