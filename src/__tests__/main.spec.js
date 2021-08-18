@@ -5,7 +5,7 @@ it('one quarter', () => {
   expect(wordsToDecimal('one quarter')).toEqual(0.25);
 });
 it('two thirds', () => {
-  expect(wordsToDecimal('two thirds')).toEqual(eval('2/3'));
+  expect(wordsToDecimal('two thirds')).toBeCloseTo(0.666, 2);
 });
 it('half', () => {
   expect(wordsToDecimal('half')).toEqual(0.5);

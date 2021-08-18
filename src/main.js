@@ -27,19 +27,19 @@ export const wordsToFraction = (input) => {
         case "half":
             return 0.5;
         case "third":
-            return eval("1/3");
+            return 1/3;
         case "quarter":
             return 0.25;
         case "fifth":
             return 0.2;
         case "sixth":
-            return eval("1/6");
+            return 1/6;
         case "seventh":
-            return eval("1/7");
+            return 1/7;
         case "eighth":
             return 0.125;
         case "ninth":
-            return eval("1/9");
+            return 1/9;
         case "tenth":
             return 0.1;
         default:
