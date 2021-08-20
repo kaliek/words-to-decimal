@@ -1,6 +1,6 @@
 {
   "name": "words-to-decimal",
-  "version": "1.0.11",
+  "version": "1.0.10",
   "description": "a parser to translate words to numbers",
   "main": "index.js",
   "scripts": {
